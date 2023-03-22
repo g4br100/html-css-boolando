@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #e8732a;
+    color: white;
+    font-size: 15px;   
+}
+
+
+#main-nav{
+    min-height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 30%;
+    margin-left: 20%;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 150px;
+    
+}
+
+#logo{
+    display: flex;
+}
+
+img{
+    width: 90px;
+    height: 27px;
+}
+
+main{
+    display: flex;
+}
+
