@@ -67,7 +67,7 @@ article img{
 }
 
 
-.label.red{
+.labelr{
     background-color: red;
     left: 0;
 }
@@ -77,14 +77,22 @@ article img{
     position: relative;
 }
 
-.label{
-    left: 50px;
+.labelg, .labelr, .labelg2{
     padding: 5px;
-    background-color: green;
     position: absolute;
     bottom: 90px;
     color: white;
-    
+    font-size: 13px;
+    font-weight: 700;    
+}
+
+.labelg, .labelg2{
+    left: 50px;
+    background-color: green;
+}
+
+.labelg2{
+    left: 0;
 }
 
 .text1{
@@ -101,6 +109,28 @@ article img{
     font-size: 14px;
     font-weight: 700;
 }
+
+.heart{
+    background-color: white;
+    position: absolute;
+    right: 90px;
+    top: 5px;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.mouse{
+    display: none;
+    position: absolute;
+}
+
+.product-col:hover .mouse{
+    display: inline-block;
+    cursor: pointer;
+}
+
 
 
 footer{
@@ -133,3 +163,4 @@ footer{
     justify-content: space-between;
     flex-basis: 100px;
 }
+
