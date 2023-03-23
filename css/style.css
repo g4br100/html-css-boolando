@@ -3,16 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 header{
     background-color: #e8732a;
     color: white;
-    font-size: 15px;   
+    font-size: 15px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+    z-index: 10000;
 }
 
 
 #main-nav{
-    min-height: 74px;
+    min-height: 68px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,12 +41,51 @@ header{
     display: flex;
 }
 
-img{
+#logos{
     width: 90px;
     height: 27px;
 }
-
 main{
-    display: flex;
+    margin-top: 130px;
 }
 
+.row{
+    display:flex;
+    row-gap: 10px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+article{
+    border: solid 4px #ccc;
+}
+
+article img{
+    max-width: 80%;
+    width: 450px;
+}
+
+
+.label.red{
+    background-color: red;
+    left: 0;
+}
+
+.product-col{
+    position: relative;
+}
+
+.label{
+    
+    left: 50px;
+    padding: 5px;
+    background-color: green;
+    position: absolute;
+    bottom: 40px;
+    
+}
