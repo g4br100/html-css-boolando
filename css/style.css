@@ -113,8 +113,8 @@ article img{
 .heart{
     background-color: white;
     position: absolute;
-    right: 90px;
-    top: 5px;
+    left: 69%;
+    top: 2%;
     font-size: 40px;
     width: 50px;
     height: 50px;
@@ -151,7 +151,7 @@ footer{
 }
 
 #titlef{
-    
+    font-size: 20px;
 }
 
 
@@ -161,6 +161,13 @@ footer{
     font-size: 14px;
     display: flex;
     justify-content: space-between;
-    flex-basis: 100px;
 }
 
+.colf li{
+    padding-right: 20px;
+}
+
+#scl{
+    padding-top: 10px;
+    font-size: 20px;
+}
